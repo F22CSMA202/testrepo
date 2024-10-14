@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    font-family: arial, helvetica, sans-serif;
+}
+
+body{
+margin:0
+}
+
+h1 {
+    font-size: 100px;
+    
+  }
+  h2 {
+    font-size: 45px;
+  }
+
+  h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+  }
+
+header {
+    /*background: #2F3061;*/
+    background-image: url("images/Splash.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #F7FFF7;
+    text-align: right;
+    height: 330px;
+    padding: 50px;
+  }
+
+  @media screen and (max-width:1150px){
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 25px;
+    }
+  }
+
+  
